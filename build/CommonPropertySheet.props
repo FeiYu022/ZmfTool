@@ -7,6 +7,7 @@
     <OutDir_Root_Release>$(RootDir)output\bin_x64\Release</OutDir_Root_Release>
     <OutDir_Plugins_Debug>$(OutDir_Root_Debug)plugins</OutDir_Plugins_Debug>
     <OutDir_Plugins_Release>$(OutDir_Root_Release)plugins</OutDir_Plugins_Release>
+    <Inc_Dir>$(Root_Dir)include</Inc_Dir>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup />
@@ -25,6 +26,9 @@
     </BuildMacro>
     <BuildMacro Include="OutDir_Plugins_Release">
       <Value>$(OutDir_Plugins_Release)</Value>
+    </BuildMacro>
+    <BuildMacro Include="Inc_Dir">
+      <Value>$(Inc_Dir)</Value>
     </BuildMacro>
   </ItemGroup>
 </Project>
