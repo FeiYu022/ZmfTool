@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <Root_Dir>$(SolutionDir)..\..\</Root_Dir>
+    <OutDir_Root_Debug>$(RootDir)output\bin_x64\Debug</OutDir_Root_Debug>
+    <OutDir_Root_Release>$(RootDir)output\bin_x64\Release</OutDir_Root_Release>
+    <OutDir_Plugins_Debug>$(OutDir_Root_Debug)plugins</OutDir_Plugins_Debug>
+    <OutDir_Plugins_Release>$(OutDir_Root_Release)plugins</OutDir_Plugins_Release>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="Root_Dir">
+      <Value>$(Root_Dir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OutDir_Root_Debug">
+      <Value>$(OutDir_Root_Debug)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OutDir_Root_Release">
+      <Value>$(OutDir_Root_Release)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OutDir_Plugins_Debug">
+      <Value>$(OutDir_Plugins_Debug)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OutDir_Plugins_Release">
+      <Value>$(OutDir_Plugins_Release)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
