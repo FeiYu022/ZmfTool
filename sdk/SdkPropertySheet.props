@@ -4,12 +4,12 @@
   <PropertyGroup Label="UserMacros">
     <Root_Dir>$(SolutionDir)..\..\</Root_Dir>
     <Inc_Dir>$(Root_Dir)include\</Inc_Dir>
-    <OutDir_Lib>$(RootDir)output\lib_x64\</OutDir_Lib>
-    <OutDir>$(RootDir)output\</OutDir>
-    <OutDir_Plugins>$(RootDir)output\bin_x64\plugins</OutDir_Plugins>
-    <OutDir_Pdb>$(RootDir)output\pdb\</OutDir_Pdb>
-    <OutDir_Release>$(RootDir)output\bin_x64\</OutDir_Release>
-    <OutDir_Temp>$(RootDir)output\obj\</OutDir_Temp>
+    <OutDir_Lib>$(Root_Dir)output\lib_x64\</OutDir_Lib>
+    <OutDir>$(Root_Dir)output\</OutDir>
+    <OutDir_Plugins>$(Root_Dir)output\bin_x64\plugins</OutDir_Plugins>
+    <OutDir_Pdb>$(Root_Dir)output\pdb\</OutDir_Pdb>
+    <OutDir_Release>$(Root_Dir)output\bin_x64\</OutDir_Release>
+    <OutDir_Temp>$(Root_Dir)output\obj\</OutDir_Temp>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup />
